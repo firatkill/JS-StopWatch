@@ -1,0 +1,40 @@
+body {
+  background-color: rgb(242, 170, 60);
+}
+h1 {
+  color: white;
+  font-family: sans-serif;
+  margin: 2rem;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-top: 10vh;
+}
+.buttonContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  width: 75%;
+}
+#timer {
+  margin-bottom: 1rem;
+  font-size: 5rem;
+  color: white;
+  font-family: "Tapestry", cursive;
+}
+button {
+  width: 25%;
+  border: 1px solid white;
+  background-color: transparent;
+  color: white;
+  border-radius: 5px;
+  font-size: 2rem;
+}
+button:hover {
+  box-shadow: 1px 1px 5px 5px white;
+}
